@@ -8,13 +8,8 @@
 
 // ______________________________________________
 
-let nome = prompt ("Inserisci il tuo nome")
+let nome = prompt("Inserisci il tuo nome")
+let cognome = prompt("Inserisci il tuo cognome")
+let colorePreferito = prompt("Inserisci il tuo colore preferito")
 
-
-let cognome = prompt ("Inserisci il tuo cognome")
-
-
-
-let colorePreferito = prompt ("Inserisci il tuo colore preferito")
-
-document.writeln (nome + cognome + colorePreferito + ("24"))
+document.writeln(nome + cognome + colorePreferito + ("24"))
